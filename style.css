@@ -45,10 +45,10 @@ body {
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
     border-radius: 25px;
-    background: transparent;
+    background: whitesmoke;
     padding: 20px;
     text-align: center;
-    border: 2px solid white;
+    border: 2px solid #0795C3;
   }
 
   .has-border {
