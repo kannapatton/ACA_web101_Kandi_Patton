@@ -1,0 +1,180 @@
+
+ @media screen and (max-width:576px){
+  body{
+    margin-left: 5em;
+    background-color: rgb(251,217,170);
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: .75fr .25fr 1fr .75fr;
+    gap: 2px 2px;
+    grid-auto-flow: row;
+    grid-template-areas: 
+      "pic1"
+      "contact"
+      "info"
+      "pic2";
+  }
+  .contact {display:flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: contact;
+    background-color:rgb(133,145,150) ;
+    font-size:medium;
+     }
+  .pic1 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+     grid-area: pic1; 
+    text-align: center;
+    justify-items: center;
+  }   
+  #rotaryphones {
+      height: 250px;
+      width: 300px;
+      margin: 5%;
+      border-radius: 10%;
+      grid-column:1;
+    }
+  .pic2 { display:flex;
+    justify-content: center;
+    align-items: center;grid-area: pic2;
+     justify-items: center;
+    text-align: center;
+  }
+    #typewriter {
+    height: 250px;
+    width: 300px;
+    margin: 5%;
+    border-radius: 10%;
+    grid-column-end: auto;
+    align-items: right;
+  }
+  .info {display:flex;
+    justify-content: center;
+    align-items: center; grid-area: info;
+  justify-items:center;
+text-align:left;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+margin-left: 1em; }}
+
+
+@media screen and (min-width:577px){
+  body{
+    background-color: rgb(222,153,147);
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap:30px;
+  grid-template-areas: 
+  "pic1 contact"
+  "info pic2";}
+   .contact {display:flex; grid-area: contact;
+    background-color:rgb(133,145,150) ;
+    justify-content: center;
+    align-items: center;
+    font-size:large;
+     }
+  .pic1 { display: flex; grid-area: pic1; 
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+    text-align: center;
+    justify-items: center;
+  }   
+  #rotaryphones {
+      height: 275px;
+      width: 300px;
+      margin: 5%;
+      border-radius: 10%;
+      grid-column:1;
+    }
+  .pic2 { display: flex;
+    grid-area: pic2;
+    justify-content: center;
+    align-items: center;
+  }
+    #typewriter {
+    height: 275px;
+    width: 300px;
+    margin: 5%;
+    border-radius: 10%;
+    grid-column-end: auto;
+    align-items: right;
+  }
+  .info { display:flex;grid-area: info;
+    justify-content: center;
+    align-items: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+margin-left: 1em; }}
+
+
+
+@media screen and (min-width:992px){
+body{
+  background-color: rgb(84,192,192);
+}
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px 10px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "contact contact contact"
+      "pic1 info pic2"
+      "pic1 info pic2"
+      "pic1 info pic2"
+      "pic1 info pic2"
+      "pic1 info pic2"
+      ". . ."
+      ". . ."
+      ". . .";
+  }
+    .contact { grid-area: contact;
+      background-color:rgb(133,145,150) ;
+      justify-items: center;
+      align-items: center;
+      text-align: center;
+      font-size: xx-large;
+       }
+    .pic1 { grid-area: pic1; 
+      text-align: center;
+      justify-items: center;
+    }   
+    #rotaryphones {
+        height: 350px;
+        width: 375px;
+        margin: 5%;
+        border-radius: 10%;
+        grid-column:1/3;
+      }
+    .pic2 { grid-area: pic2;
+       justify-items: center;
+      text-align: center;
+    }
+      #typewriter {
+      height: 350px;
+      width: 375px;
+      margin: 5%;
+      border-radius: 10%;
+      grid-column-end: auto;
+      align-items: right;
+    }
+    .info { grid-area: info;
+    justify-items:center;
+  text-align:left;
+  margin-top: 2em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 5em; }}
+    
+
+  
+ 
+
+    
+    

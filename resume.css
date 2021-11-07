@@ -1,11 +1,15 @@
+body{ 
+  background-color:rgb(222,153,147);
+}
 .container {
-  background:background-color: #e5e5f7;
+  background: background-color: #e5e5f7;
   opacity: 1;
   background-image: linear-gradient(to right, #d8d9e7, #d8d9e7 5px, #e5e5f7 5px, #e5e5f7 );
   background-size: 10px 100%;
-   
+   width: 90%;
+   padding-left:100px;
     display: grid;
-   margin: after;
+   margin: 0 auto;
     grid-template-columns: 0.5fr 1.5fr 1.5fr 0.5fr;
     grid-template-rows: 0.5fr 1fr 1fr;
     gap: 0px 0px;
@@ -16,8 +20,10 @@
       "links- skills education .";
   }
   
-  .heading { grid-area: heading;
-    
+  .heading { display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: heading;
     font-size:x-large;
     text-align: left;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -42,6 +48,7 @@
   .pic { grid-area: pic;
     text-align: center;
     align-items: center;
+    margin-top: 20px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
     
