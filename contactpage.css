@@ -16,7 +16,13 @@
       "info"
       "pic2";
   }
+  
   .contact {display:flex;
+    color:white;
+      font-family: "Sofia", sans-serif;
+      font-size:xx-large;
+    text-shadow: 3px 3px 3px #ababab;
+    
     justify-content: center;
     align-items: center;
     grid-area: contact;
@@ -74,6 +80,10 @@ margin-left: 1em; }}
   "pic1 contact"
   "info pic2";}
    .contact {display:flex; grid-area: contact;
+    color:white;
+    font-family: "Sofia", sans-serif;
+    font-size:xx-large;
+  text-shadow: 3px 3px 3px #ababab;
     background-color:rgb(133,145,150) ;
     justify-content: center;
     align-items: center;
@@ -136,6 +146,10 @@ body{
       ". . .";
   }
     .contact { grid-area: contact;
+      color:white;
+      font-family: "Sofia", sans-serif;
+      font-size:xx-large;
+    text-shadow: 3px 3px 3px #ababab;
       background-color:rgb(133,145,150) ;
       justify-items: center;
       align-items: center;
